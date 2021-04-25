@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
+    android:layout_height="match_parent"
+    tools:context=".admin.ClassAddActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+
+
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="24dp" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="24dp" />
+
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="80dp"
+                    android:background="@drawable/et_bg"
+                    android:padding="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iamstudent" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="@font/poppins_light"
+                    android:hint="Subject Name"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details"
+                    app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+                <EditText
+                    android:id="@+id/st_class"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="@font/poppins_light"
+                    android:hint="Time"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details"
+                    app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/name"
+                    tools:ignore="MissingConstraints" />
+
+
+                <EditText
+                    android:id="@+id/section"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="@font/poppins_light"
+                    android:hint="Link"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details"
+                    app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/roll"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/roll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/et_bg"
+                    android:fontFamily="@font/poppins_light"
+                    android:hint="Date"
+                    android:inputType="text"
+                    android:padding="16dp"
+                    android:textColor="@color/login_form_details"
+                    android:textColorHint="@color/login_form_details"
+                    app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/st_class"
+                    tools:ignore="MissingConstraints" />
+
+
+                <Button
+                    android:id="@+id/student_log"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btn_bg"
+                    android:fontFamily="@font/poppins_light"
+
+                    android:text="Submit Class"
+                    android:textAllCaps="false"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+                    app:layout_constraintStart_toStartOf="@+id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/section" />
+
+
+                <TextView
+                    android:id="@+id/iamstudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="8dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Add Class"
+                    android:textColor="@color/login_form_details"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@id/guideline_right"
+                    app:layout_constraintHorizontal_bias="0.538"
+                    app:layout_constraintStart_toStartOf="@id/guideline_left"
+                    app:layout_constraintTop_toBottomOf="@+id/icon"
+                    tools:ignore="MissingConstraints" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

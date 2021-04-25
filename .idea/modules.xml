@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Surjo_Mukhi_Biddapith.iml" filepath="$PROJECT_DIR$/.idea/modules/Surjo_Mukhi_Biddapith.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Surjo_Mukhi_Biddapith.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Surjo_Mukhi_Biddapith.app.iml" />
+    </modules>
+  </component>
+</project>

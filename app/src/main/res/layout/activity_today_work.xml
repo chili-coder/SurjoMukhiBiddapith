@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
+    android:layout_height="match_parent"
+    tools:context=".student.TodayWorkActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="300dp"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="20dp"
+              android:layout_gravity="center"
+              android:layout_height="300dp"
+              android:background="@color/white"
+              app:cardCornerRadius="50dp"
+              app:cardElevation="10dp">
+
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:padding="10dp"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/poppins_medium"
+                      android:gravity="center"
+
+                      android:text="Bangla"
+                      android:textColor="@color/purple_700"
+                      android:textSize="20dp">
+
+                  </TextView>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="20/04/2021"
+                      android:gravity="center"
+                      android:layout_height="wrap_content">
+
+                  </TextView>
+                  <View
+                      android:layout_width="match_parent"
+                      android:background="#D7D5D5"
+                      android:layout_height="2dp">
+                  </View>
+
+
+
+                  <TextView
+                      android:layout_marginTop="5dp"
+                      android:layout_width="match_parent"
+
+                      android:text="প্রতিটি ছাত্র-ছাত্রীর অন্তরেরত্র-ছাত্রীর অন্তরের অন্তর্স্থন্তর্স্থলের হার-নাত্র-ছাত্রীর অন্তরেথলের হার-নাবপন করে প্রতিটি বাবা-মায়ের স্বপ্ন পূরন করার জন্য আমাদের এই আয়োজন।"
+                      android:layout_marginRight="10dp"
+                      android:textColor="@color/black"
+                      android:layout_marginLeft="10dp"
+                      android:textSize="18dp"
+                      android:layout_height="170dp">
+
+                  </TextView>
+
+
+
+                  <CheckBox
+
+                      android:layout_width="match_parent"
+                      android:layout_marginLeft="20dp"
+                      android:textSize="18dp"
+                      android:textColor="@color/drack_light"
+                      android:layout_height="wrap_content"
+                      android:text="আমার কাজ শেষ" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="English"
+                        android:textColor="@color/purple_700"
+                        android:textSize="26dp">
+
+                    </TextView>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#D7D5D5"
+                        android:layout_height="2dp">
+                    </View>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+
+                        android:text="প্রতিটি ছাত্র-ছাত্রীর অন্তরের অন্তর্স্থলের হার-না-মানা স্বপ্নের বীজ বপন করে প্রতিটি বাবা-মায়ের স্বপ্ন পূরন করার জন্য আমাদের এই আয়োজন।"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="18dp"
+                        android:layout_height="170dp">
+
+                    </TextView>
+
+                    <CheckBox
+
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content"
+                        android:text="Make as done" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Math"
+                        android:textColor="@color/purple_700"
+                        android:textSize="26dp">
+
+                    </TextView>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#D7D5D5"
+                        android:layout_height="2dp">
+                    </View>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+
+                        android:text="প্রতিটি ছাত্র-ছাত্রীর অন্তরের অন্তর্স্থলের হার-না-মানা স্বপ্নের বীজ বপন করে প্রতিটি বাবা-মায়ের স্বপ্ন পূরন করার জন্য আমাদের এই আয়োজন।"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="18dp"
+                        android:layout_height="170dp">
+
+                    </TextView>
+
+                    <CheckBox
+
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content"
+                        android:text="Make as done" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_height="300dp"
+                android:background="@color/white"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="ICT"
+                        android:textColor="@color/purple_700"
+                        android:textSize="26dp">
+
+                    </TextView>
+                    <View
+                        android:layout_width="match_parent"
+                        android:background="#D7D5D5"
+                        android:layout_height="2dp">
+                    </View>
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+
+                        android:text="প্রতিটি ছাত্র-ছাত্রীর অন্তরের অন্তর্স্থলের হার-না-মানা স্বপ্নের বীজ বপন করে প্রতিটি বাবা-মায়ের স্বপ্ন পূরন করার জন্য আমাদের এই আয়োজন।"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="18dp"
+                        android:layout_height="170dp">
+
+                    </TextView>
+
+                    <CheckBox
+
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        android:layout_height="wrap_content"
+                        android:text="Make as done" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
